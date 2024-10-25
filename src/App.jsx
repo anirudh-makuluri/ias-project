@@ -1,13 +1,16 @@
 import { useState } from 'react'
+import { Textarea } from './components/ui/textarea'
 
 function App() {
-  const [count, setCount] = useState(0)
 
-  return (
-    <>
-      <p className='text-red-300'>Test</p>
-    </>
-  )
+	return (
+		<>
+			<Textarea
+				className="absolute bottom-2"
+				placeholder="Type your message here"
+			/>
+		</>
+	)
 }
 
 export default App
